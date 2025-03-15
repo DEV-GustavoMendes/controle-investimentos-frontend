@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Cadastro de Investimentos</title>
+    <link rel = "stylesheet" href = "css/styles.css">
+    <link rel = "shortcut icon" href = "assests/svg/favicon.ico" type = "image/x-icon">
+    <script src = "https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <h1>Cadastro de Investimentos</h1>
+        </header>
+
+        <!-- Tela de Cadastro -->
+        <section id = "cadastro">
+            <img src = "assets/svg/gfinnovation-logo.svg" alt = "Logo da empresa GF Innovation" id = "logo">
+
+            <form id = "formCadastro">
+                <label for = "nome">Nome do Investimento:</label>
+                <input type = "text" id= "nome" placeholder = "Exemplo: MGLU3" required>
+                
+                <label for = "tipo">Tipo de Investimento:</label>
+                <select id = "tipo" required>
+                    <option value ="">Selecione</option>
+                    <option value = "Poupança">Poupança</option>
+                    <option value = "Renda Fixa">Renda Fixa</option>
+                    <option value = "Ações">Ações</option>
+                    <option value = "Fundos Imobiliários">Fundos Imobiliários</option>
+                    <option value = "Tesouro Direto">Tesouro Direto</option>
+                </select>
+                
+                <label for = "valor">Valor Investido:</label>
+                <input type = "number" id = "valor" placeholder = "Exemplo: Valor numérico" step = "0.01" min = "0" required>
+                
+                <label for = "dataInicio">Data de Início:</label>
+                <input type = "date" id = "dataInicio" required>
+                
+                <label for = "dataVencimento">Data de Vencimento:</label>
+                <input type = "date" id = "dataVencimento" required>
+
+                <button type = "submit">Cadastrar</button>
+            </form>
+        </section>
+
+        <!-- Tela de Listagem -->
+        <section id = "listagem">
+            <h2>Investimentos Cadastrados</h2>
+            <table id = "tabelaInvestimentos">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                        <th>Data de Início</th>
+                        <th>Data de Vencimento</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Investimentos serão listados aqui -->
+                </tbody>
+            </table>
+        </section>
+        <canvas id = "investmentsChart" width="50" height="50"></canvas>
+    </div>
+    
+    <script src = "scripts/app.js"></script>
+</body>
+</html>
