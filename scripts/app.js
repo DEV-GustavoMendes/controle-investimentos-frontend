@@ -141,9 +141,9 @@ function showInvestmentsChart() {
                 data: data,
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.5)',
-                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(0, 89, 255, 0.5)',
                     'rgba(255, 206, 86, 0.5)',
-                    'rgba(75, 192, 192, 0.5)',
+                    'rgba(21, 58, 75, 0.5)',
                     'rgba(153, 102, 255, 0.5)',
                     'rgba(255, 159, 64, 0.5)'
                 ],
@@ -164,7 +164,7 @@ function showInvestmentsChart() {
                     position: 'top',
                     align: 'center',
                     labels: {
-                        padding: 50,
+                        padding: 20,
                         color: 'black',
                         font: {
                             size: 25

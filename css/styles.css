@@ -165,6 +165,13 @@ td button:hover {
 
 /* ----- Responsividade - Tablet ----- */
 @media (max-width: 1024px) {
+
+    #investmentsChart {
+        margin: 0 auto;
+        max-width: 500px; /* Ajuste o tamanho máximo do gráfico */
+        width: 100%; /* Garante que o gráfico ocupe a largura disponível */
+      }
+
     form {
         grid-template-columns: 1fr;
     }
@@ -195,6 +202,13 @@ td button:hover {
 
 /* ----- Responsividade - Telas Grandes ----- */
 @media (min-width: 1025px) {
+
+    #investmentsChart {
+        margin: 0 auto;
+        max-width: 700px; /* Ajuste o tamanho máximo do gráfico */
+        width: 100%; /* Garante que o gráfico ocupe a largura disponível */
+      }
+
     form {
         grid-template-columns: 1fr;
     }
