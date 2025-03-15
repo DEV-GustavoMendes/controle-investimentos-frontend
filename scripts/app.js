@@ -161,7 +161,7 @@ function showInvestmentsChart() {
                     }
                 },
                 legend: {
-                    position: 'top',
+                    position: 'bottom',
                     align: 'center',
                     labels: {
                         padding: 20,

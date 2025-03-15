@@ -136,6 +136,12 @@ td button:hover {
 /* ----- Responsividade - Celular ----- */
 @media (min-width: 600px){
 
+    #investmentsChart {
+        margin: 0 auto;
+        min-width: 200px; /* Ajuste o tamanho máximo do gráfico */
+        width: 100%; /* Garante que o gráfico ocupe a largura disponível */
+      }
+
     form {
         grid-template-columns: 1fr;
     }
