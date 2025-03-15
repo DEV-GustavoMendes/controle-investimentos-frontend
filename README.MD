@@ -9,6 +9,7 @@
     * Visualização gráfica: Gráfico de pizza interativo mostrando a distribuição dos investimentos por tipo.
     * **Persistência de dados:** Os dados são armazenados no `localStorage` do navegador, garantindo a permanência das informações entre sessões.
 
+
 **2. Fluxo de Navegação:**
 
 * **Cadastro:** O usuário insere os dados do investimento e confirma o registro.
@@ -18,6 +19,7 @@
     * Edição: Seleção do registro → Alteração dos dados → Confirmação.
     * Exclusão: Seleção do registro → Confirmação da exclusão.
     * Visualização: O gráfico reflete as alterações em tempo real.
+
 
 **3. Componentes:**
 
@@ -34,11 +36,13 @@
     * Editar: Carrega os dados do registro no formulário.
     * Excluir: Remove o registro e atualiza a interface.
 
+
 **4. Design e Responsividade:**
 
 * **Estilo:** Design minimalista, com foco na usabilidade e clareza da informação.
 * **Responsividade:** Adaptação a diversos dispositivos (celulares, tablets, desktops), com otimização para telas maiores.
 * **CSS:** Código organizado e comentado, facilitando a personalização e manutenção.
+
 
 **5. Testes:**
 
@@ -47,11 +51,13 @@
 * **Testes End-to-End:** Simulação do fluxo de uso completo.
 * **Testes de Responsividade:** Garantia da adaptação a diferentes telas.
 
+
 **6. Implantação:**
 
 * **Desenvolvimento:** Utilização de um computador com Linux Ubuntu 24.04.2 LTS, processador AMD Ryzen 7 8700g, 16GB de RAM e SSD.
 * **Testes:** Realizados em diversos ambientes: Windows 11 com Google Chrome, tablets com navegador Brave e celulares com Google Chrome.
 * **Ferramentas:** Utilização do DEV-TOOL dos navegadores para testes de responsividade.
+
 
 **7. Detalhes Técnicos:**
 
@@ -62,6 +68,7 @@
 * **HTML:** Estrutura lógica e organizada, com separação clara dos componentes.
 * **CSS:** Código organizado, comentado e em ordem alfabética.
 
+
 **8. Tecnologias Utilizadas:**
 
 * **HTML:** Estruturação do conteúdo da aplicação.
@@ -69,6 +76,7 @@
 * **JavaScript:** Lógica da aplicação, manipulação de dados e interatividade.
 * **Git:** Controle de versão do código.
 * **Chart.js:** Geração do gráfico de pizza para visualização dos dados.
+
 
 **9. Possíveis Problemas:**
 
@@ -79,6 +87,7 @@
     * A tabela horizontal pode causar perda de elementos em telas de celular.
     * Recomendação: Utilizar telas maiores (tablets ou desktops) para melhor visualização.
 
+
 **10. Competências (Não Obrigatórias) Concluídas:**
 
 * **Validações Mais Detalhadas:**
@@ -87,6 +96,7 @@
     * Mensagens de sucesso ou erro ao cadastrar, atualizar ou deletar um investimento.
 * **Gráfico Simples:**
     * Mostrar a distribuição dos tipos de investimentos usando a biblioteca Chart.js.
+
 
 **11. Conclusão:**
 
