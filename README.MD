@@ -52,7 +52,7 @@
 * **Testes de Responsividade:** Garantia da adaptação a diferentes telas.
 
 
-**6. Implantação:**
+**6. Implementação:**
 
 * **Desenvolvimento:** Utilização de um computador com Linux Ubuntu 24.04.2 LTS, processador AMD Ryzen 7 8700g, 16GB de RAM e SSD.
 * **Testes:** Realizados em diversos ambientes: Windows 11 com Google Chrome, tablets com navegador Brave e celulares com Google Chrome.
